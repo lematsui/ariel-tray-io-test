@@ -12,7 +12,7 @@ coordinates its bottom left corner is defined by X: 0 and Y: 0.
 * an initial hoover position (X and Y coordinates like patches of dirt)
 * driving instructions (as cardinal directions where e.g. N and E mean "go north" and "go east" respectively)
 
-The room will be rectangular, has no obstacles (except the room walls), no doors and all locations in the room will be clean
+The room is rectangular, has no obstacles (except the room walls), no doors and all locations in the room are clean
 (hoovering has no effect) except for the locations of the patches of dirt presented in the program input.
 
 Placing the hoover on a patch of dirt ("hoovering") removes the patch of dirt so that patch is then clean for the remainder
@@ -49,7 +49,6 @@ $ node app.js
 
 Program input is received in the input.txt file
 
-
 Example:
 
 ```
@@ -61,12 +60,24 @@ Example:
 NNESEESWNWW
 ```
 
-* the first line holds the room dimensions (X Y), separated by a single space (all coordinates will be presented in this format)
+* the first line holds the room dimensions (X Y), separated by a single space (all coordinates are presented in this format)
 * the second line holds the hoover position
 * subsequent lines contain the zero or more positions of patches of dirt (one per line)
 * the next line then always contains the driving instructions (at least one)
 
+## Output
 
+Program output is printed in the terminal.
+
+* The first line of the program output displays the X and Y coordinates marking the position of the hoover after processing all commands.
+* The second line of the program output displays the number of patches of dirt the robot cleaned up
+
+Example (matching the input above):
+
+```
+1 3
+1
+```
 
 
 
