@@ -130,6 +130,5 @@ function performInstructions() {
 // Run functions and log results
 initialiseRoom();
 performInstructions();
-console.log(`Hoover X coordinate: ${hooverX}`);
-console.log(`Hoover Y coordinate: ${hooverY}`);
-console.log(`Patches of dirt cleaned: ${patchesCleaned}`);
+console.log(`${hooverX} ${hooverY}`);
+console.log(`${patchesCleaned}`);
