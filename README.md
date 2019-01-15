@@ -29,6 +29,9 @@ On Debian, Ubuntu, Linux Mint:
 ```console
 $ sudo apt-get install nodejs npm
 ```
+
+Other OS or alternative package manager:
+
 If you are using a different package manager please follow this guide:
 https://nodejs.org/en/download/package-manager/
 
